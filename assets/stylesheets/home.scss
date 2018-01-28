@@ -1,0 +1,21 @@
+.lead{
+    padding-top: 0px;
+}
+
+
+#jumbo{
+    width: 100%;
+    
+}
+.trip{
+    text-align: center;
+    margin: center;
+    display: inline-block;
+    vertical-align: text-top;
+    .tripEle{
+        vertical-align: text-top;
+        margin: 0px 0px;
+        padding: 0px 10px;
+        float: left;
+    }
+}
