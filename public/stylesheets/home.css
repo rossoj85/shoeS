@@ -9,8 +9,20 @@
   margin: center;
   display: inline-block;
   vertical-align: text-top; }
-  .trip .tripEle {
-    vertical-align: text-top;
-    margin: 0px 0px;
-    padding: 0px 10px;
-    float: left; }
+
+.tripEle {
+  vertical-align: text-top;
+  margin: 0px 0px;
+  padding: 0px 10px;
+  float: left; }
+
+.img-home-portfolio {
+  width: 75%; }
+
+.clearfix::before, .clearfix::after {
+  clear: both;
+  display: block;
+  content: ""; }
+
+.floatRight {
+  float: right; }
