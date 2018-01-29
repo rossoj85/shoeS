@@ -1,6 +1,7 @@
 @import "normalize";
 @import "modern-business";
 @import "home";
+@import "contact";
 
 * {
   box-sizing: border-box;
@@ -30,6 +31,16 @@ body {
 
 @for $i from 1 through 12 {
   .col-lg-#{$i}{
+    width: (100% /12 )* $i;
+    display: inline-block;
+  }
+}
+.text-center{
+  text-align: center;
+}
+
+@for $i from 1 through 12 {
+  .col-sm-#{$i}{
     width: (100% /12 )* $i;
     display: inline-block;
   }

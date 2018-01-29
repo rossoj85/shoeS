@@ -1,0 +1,62 @@
+
+$grey: #E1E1E1;
+$boostrapBlue: #2D8DC7;
+$stanM: 0em 2em;
+
+#contactContainer{
+    margin: $stanM !important;
+}
+.page-header{
+    color: black;
+    
+}
+
+.breadcrumb{
+    background-color: $grey;
+    display: block;
+    // margin: $stanM;
+    
+    li{
+        display: inline-block;
+        margin: 10px;
+        list-style-type: '/';
+    }
+    a{
+        color: $boostrapBlue;
+        text-decoration: none;
+    }
+}
+
+.form-group{
+    float: left;
+    display: block;
+    label{
+        display: block 
+    }
+    input{
+        margin-bottom: 20px
+    }
+    textarea{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    button{
+        color: white;
+        background-color: $boostrapBlue;
+        height: 30px;
+        border-radius: 5px;
+        margin-bottom: 2em;
+    }
+}
+
+#address{
+    padding: 0em 1em;
+    ul{
+        padding: 0px;
+    }
+    li {
+        display: inline-block;
+        margin-right: .5em;
+        
+    }
+}
