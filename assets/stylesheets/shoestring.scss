@@ -2,6 +2,7 @@
 @import "modern-business";
 @import "home";
 @import "contact";
+@import "media-queries";
 
 * {
   box-sizing: border-box;
@@ -29,22 +30,31 @@ body {
 //   width: 100%;
 // }
 
-@for $i from 1 through 12 {
-  .col-lg-#{$i}{
-    width: (100% /12 )* $i;
-    display: inline-block;
-  }
-}
+
 .text-center{
   text-align: center;
 }
+// @for $i from 1 through 12 {
+//   .col-md-#{$i}{
+//     width: (100% /12 )* $i;
+//     display: inline-block;
+//   }
+// }
+// @for $i from 1 through 12 {
+//   .col-sm-#{$i}{
+//     width: (100% /12 )* $i;
+//     display: inline-block;
+//   }
+// }
 
-@for $i from 1 through 12 {
-  .col-sm-#{$i}{
-    width: (100% /12 )* $i;
-    display: inline-block;
-  }
-}
+//  @for $i from 1 through 12 {
+//   .col-lg-#{$i}{
+//     width: (100% /12 )* $i;
+//     display: inline-block;
+//   }
+// }
+
+
 .text-center{
   text-align: center;
 }
